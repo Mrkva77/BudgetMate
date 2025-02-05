@@ -1,0 +1,11 @@
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\bin\Debug\BugedMate.exe.config
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\bin\Debug\BugedMate.exe
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\bin\Debug\BugedMate.pdb
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.csproj.AssemblyReference.cache
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.Form1.resources
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.Form2.resources
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.Properties.Resources.resources
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.csproj.GenerateResource.cache
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.csproj.CoreCompileInputs.cache
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.exe
+C:\Users\Učenik\source\repos\BugedMate\BugedMate\obj\Debug\BugedMate.pdb
