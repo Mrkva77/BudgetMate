@@ -28,48 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.Label1 = new System.Windows.Forms.Label();
+            this.btnERNEXP = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEROR = new System.Windows.Forms.Button();
+            this.btnGOAL = new System.Windows.Forms.Button();
+            this.btnBUDGET = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Green;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(137, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 51);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Green;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(262, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 51);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Green;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(387, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 51);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Label1
             // 
@@ -82,25 +48,58 @@
             this.Label1.Text = "BUDGET MATE";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // btnERNEXP
+            // 
+            this.btnERNEXP.BackColor = System.Drawing.Color.Green;
+            this.btnERNEXP.Image = global::BugedMate.Properties.Resources._6_removebg_preview;
+            this.btnERNEXP.Location = new System.Drawing.Point(12, 14);
+            this.btnERNEXP.Name = "btnERNEXP";
+            this.btnERNEXP.Size = new System.Drawing.Size(119, 51);
+            this.btnERNEXP.TabIndex = 6;
+            this.btnERNEXP.UseVisualStyleBackColor = false;
+            this.btnERNEXP.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::BugedMate.Properties.Resources.Budget_Mate_logo_removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(159, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(496, 396);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnEROR
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(12, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 51);
-            this.button1.TabIndex = 6;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEROR.BackColor = System.Drawing.Color.Green;
+            this.btnEROR.Image = global::BugedMate.Properties.Resources._9_removebg_preview;
+            this.btnEROR.Location = new System.Drawing.Point(387, 12);
+            this.btnEROR.Name = "btnEROR";
+            this.btnEROR.Size = new System.Drawing.Size(119, 51);
+            this.btnEROR.TabIndex = 3;
+            this.btnEROR.UseVisualStyleBackColor = false;
+            this.btnEROR.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnGOAL
+            // 
+            this.btnGOAL.BackColor = System.Drawing.Color.Green;
+            this.btnGOAL.Image = global::BugedMate.Properties.Resources._8_removebg_preview;
+            this.btnGOAL.Location = new System.Drawing.Point(262, 12);
+            this.btnGOAL.Name = "btnGOAL";
+            this.btnGOAL.Size = new System.Drawing.Size(119, 51);
+            this.btnGOAL.TabIndex = 2;
+            this.btnGOAL.UseVisualStyleBackColor = false;
+            this.btnGOAL.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnBUDGET
+            // 
+            this.btnBUDGET.BackColor = System.Drawing.Color.Green;
+            this.btnBUDGET.Image = global::BugedMate.Properties.Resources._7_removebg_preview;
+            this.btnBUDGET.Location = new System.Drawing.Point(137, 12);
+            this.btnBUDGET.Name = "btnBUDGET";
+            this.btnBUDGET.Size = new System.Drawing.Size(119, 51);
+            this.btnBUDGET.TabIndex = 1;
+            this.btnBUDGET.UseVisualStyleBackColor = false;
+            this.btnBUDGET.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -108,12 +107,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 479);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnERNEXP);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnEROR);
+            this.Controls.Add(this.btnGOAL);
+            this.Controls.Add(this.btnBUDGET);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -124,12 +123,12 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnBUDGET;
+        private System.Windows.Forms.Button btnGOAL;
+        private System.Windows.Forms.Button btnEROR;
         private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnERNEXP;
     }
 }
 
